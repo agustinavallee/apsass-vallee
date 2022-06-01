@@ -1,0 +1,17 @@
+#cabecera {
+    /* estilo de cabecera*/
+    background-color: white;
+    position: relative;
+    width: 100%;
+    text-align: center;
+  
+  }
+  @import "animaciones";
+  #cabecera img {
+    /*estilo de la imagen de la cabecera*/
+    border-radius: 100px;
+    margin: auto;
+    padding: 3%;
+    animation: bounce-in-top 1.5s both;
+  
+  }

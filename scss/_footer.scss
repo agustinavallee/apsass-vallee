@@ -1,0 +1,13 @@
+footer {
+    /* configuracion del pie de pagina*/
+    position: relative;
+    bottom: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 15px;
+    font-family: 'Pompiere', cursive;
+    font-size: 1rem;
+    background-color: #ffa066;
+  }

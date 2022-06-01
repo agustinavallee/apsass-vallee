@@ -1,0 +1,28 @@
+.navbar {
+    /* barra de navegacion*/
+    background-color: #ffa066;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  
+  
+  }
+  
+  .nav-link {
+    /* estilo de letra de la barra*/
+    text-decoration: none;
+    font-family: 'Gugi', cursive;
+    font-size: 1.5rem;
+    color: black;
+    transition: all 1s;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  
+  .nav-link:hover {
+    /* transformsacion de letra cuando pasa por encima  */
+    font-size: 1.7rem;
+  
+  }
