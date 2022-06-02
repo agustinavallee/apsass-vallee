@@ -15,7 +15,7 @@
     text-align: center;
     background-color: #ffbf98;
     font-family: 'Pompiere', cursive;
-    font-size: 2rem;
+    font-size: 2,5rem;
   
   
   }
@@ -26,16 +26,19 @@
     text-align: center;
   }
   @import "animaciones";
+  .animacion{
+    animation: tilt-in-top-1 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
   
   .thumbnail img {
     /* animacion de imagenes*/
-    animation: tilt-in-top-1 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    @extend.animacion;
     border: solid 4px white;
     border-radius: 30px;
   }
   
   .caption {
-    animation: tilt-in-top-1 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    @extend.animacion;
   }
   
   .row img {

@@ -1,9 +1,13 @@
+.posicion{
+  position: relative;
+  width: 100%;
+
+}
 #cabecera {
     /* estilo de cabecera*/
     background-color: white;
-    position: relative;
-    width: 100%;
     text-align: center;
+    @extend.posicion;
   
   }
   @import "animaciones";

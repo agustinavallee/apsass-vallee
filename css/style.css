@@ -1,11 +1,13 @@
 * {
   margin: 0; }
 
+.posicion, #cabecera, footer {
+  position: relative;
+  width: 100%; }
+
 #cabecera {
   /* estilo de cabecera*/
   background-color: white;
-  position: relative;
-  width: 100%;
   text-align: center; }
 
 @keyframes bounce-in-top {
@@ -87,7 +89,7 @@
   text-align: center;
   background-color: #ffbf98;
   font-family: 'Pompiere', cursive;
-  font-size: 2rem; }
+  font-size: 2,5rem; }
 
 .row h2 {
   /* configuracion de letra del titulo*/
@@ -130,14 +132,13 @@
     transform: rotateY(0deg) translateY(0) skewY(0deg);
     opacity: 1; } }
 
+.animacion, .thumbnail img, .caption {
+  animation: tilt-in-top-1 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
+
 .thumbnail img {
   /* animacion de imagenes*/
-  animation: tilt-in-top-1 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   border: solid 4px white;
   border-radius: 30px; }
-
-.caption {
-  animation: tilt-in-top-1 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
 
 .row img {
   margin: 20px;
@@ -145,9 +146,7 @@
 
 footer {
   /* configuracion del pie de pagina*/
-  position: relative;
   bottom: 0%;
-  width: 100%;
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
@@ -155,3 +154,18 @@ footer {
   font-family: 'Pompiere', cursive;
   font-size: 1rem;
   background-color: #ffa066; }
+
+@media screen and (min-width: 768px) {
+  #cabecera {
+    width: 200px;
+    height: 200px; } }
+
+@media screen and (min-width: 1200px) {
+  #cabecera {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    position: relative;
+    width: 100%; }
+  .row {
+    font-size: 2rem; } }

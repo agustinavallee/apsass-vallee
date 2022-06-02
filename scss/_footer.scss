@@ -1,8 +1,7 @@
 footer {
     /* configuracion del pie de pagina*/
-    position: relative;
+    @extend.posicion;
     bottom: 0%;
-    width: 100%;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;

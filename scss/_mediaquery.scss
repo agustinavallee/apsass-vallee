@@ -1,0 +1,19 @@
+@media screen and(min-width:768px){
+    #cabecera{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media screen and(min-width:1200px){
+    #cabecera{
+        width: 400px;
+        height: 400px;
+        text-align:center;
+        position: relative;
+        width: 100%;
+    }
+    .row{
+        font-size:2rem;
+    }
+}
+
