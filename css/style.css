@@ -1,7 +1,7 @@
 * {
   margin: 0; }
 
-.posicion, #cabecera, footer {
+.posicion, #cabecera, .col-lg-12, .form-control, .form-group, footer {
   position: relative;
   width: 100%; }
 
@@ -95,22 +95,21 @@
 .col-lg-12 {
   text-align: center; }
 
-.form-horizontal {
-  position: relative;
-  left: 25%;
-  text-align: center;
-  justify-content: center; }
-
 .form-control {
   position: relative;
-  left: 25%;
-  width: 50%; }
+  width: 100%; }
+
+.form-group {
+  position: relative;
+  width: 100%; }
 
 .col-lg-6 {
-  width: 30%; }
+  width: 50%; }
 
-.col-lg-12 img {
-  border-radius: 30px; }
+.col-lg-12 {
+  text-align: center; }
+  .col-lg-12 img {
+    border-radius: 30px; }
 
 .row h2 {
   /* configuracion de letra del titulo*/

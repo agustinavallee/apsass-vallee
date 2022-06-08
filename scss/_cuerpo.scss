@@ -16,29 +16,31 @@
     font-size: 2rem;
   }
   .col-lg-12{
+    @extend.posicion;
     text-align: center;
   }
-  .form-horizontal{ 
-    position:relative;
-    left: 25%;
-    text-align: center;
-    justify-content: center;
-  }
+  
+  
   .form-control{
+    @extend.posicion;
     position:relative;
-    left: 25%;
-    width: 50%;
+    width: 100%;
     
   }
+  .form-group{
+    @extend.posicion;
+    position:relative;
+    width: 100%;
+  }
   .col-lg-6{
-    width: 30%;
+    width: 50%;
   }
   .col-lg-12 {
+    @extend.posicion;
+    text-align: center;
     img{
       border-radius: 30px;
     }
-
-
   }
 
   .row h2 {
